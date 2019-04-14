@@ -9,6 +9,7 @@ const port = 3000;
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(methodOverride('_method'));
+app.use(express.static('static'));
 
 app.listen(port, function() {
   console.log("App is listening");
@@ -19,11 +20,10 @@ app.get("/", function (req, res) {
 });
 
 app.get('/pokemon', (req, res) => {
-  res.send(pokeMon) 
+  res.render('index.ejs', {
+  		"pokemon": pokeMon
+  })
 });
-
-
-
 
 
 
