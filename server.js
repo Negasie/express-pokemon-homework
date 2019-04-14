@@ -25,6 +25,11 @@ app.get('/pokemon', (req, res) => {
   })
 });
 
+app.get('/pokemon/:id/', (req,res) => {
+  res.render('show.ejs', {
+  		"pokemon": pokeMon[req.params.id]
+  })
+})
 
 
 
