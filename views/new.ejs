@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+         <link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
+
+  </head>
+  <body>
+    <style>
+  body {
+    background-color: #229999;
+    font-family: 'Autour One';
+    font-size: 24px;
+  }
+    form { 
+    color: #FFA500;
+    font-size: 32px;
+    font-family: 'Autour One'
+  }
+  h1 {
+    color: #00FF00;
+  }
+</style>
+
+<h1>Add a new Pokemon here!</h1>
+
+    <form action="/pokemon/new" method="POST">
+      Name: <input type="text" name="name"><br/>
+      Image: <input type="text" name="img"><br/>
+      <input type="submit">
+    </form>
+  </body>
+</html>
+
+
+
+
+<!--   <form action="/fruits" method="POST">
+    Name: <input type="text" name="name"><br/>
+    Color: <input type="text" name="color"><br/>
+    Is Ready To Eat: <input type="checkbox" name="readyToEat"><br/>
+    <button type="submit">Create Fruit</button>
+  </form> -->

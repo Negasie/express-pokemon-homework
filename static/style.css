@@ -1,7 +1,28 @@
 .pokemon {
 	color: red;
   	font-size: 32px;
+    font-family: 'Autour One';
+
 }
 h1 {
+	font-family: 'Autour One';
 	color:blue;
+	font-size: 48px;
+}
+
+li {
+	font-size: 48px;
+    font-family: 'Annie Use Your Telescope';
+
+}
+body {
+	background-color: #7CFC00;
+	font-family: 'Autour One';
+
+}
+
+.new {
+	font-size: 48px;
+	font-family: 'Autour One';
+
 }
